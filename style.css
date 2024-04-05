@@ -1,0 +1,179 @@
+body{
+    background-color: blanchedalmond;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(75, 75, 75));
+}
+html {
+    height: 100%;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(75, 75, 75));
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+.omoss{
+    height: 100%;
+    background-color: blanchedalmond;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(75, 75, 75));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kontakt {
+    height: 100%;
+    background-color: blanchedalmond;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(75, 75, 75));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summary {
+    height: 100%;
+    background-color: rgb(239, 201, 193);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(75, 75, 75));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summary #tillbaks {
+    bottom: 91%;
+    left: 5%;
+    color: lightcoral;
+}
+nav{
+    background-color:rgb(200, 200, 200);
+}
+body .container {
+    max-width: auto;
+    max-height: auto;
+}
+body .container .btn{
+max-width: auto;
+max-height: auto;
+position: relative;
+top: auto;
+}
+.card-img-top {
+    max-width: 20%;
+    height: auto;
+}
+
+input:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+  }
+  .btn{
+    font-size: 15px;
+  }
+.inline {
+        display: block;
+
+}
+.inline p{
+        margin: 3px;
+}
+.btn.btn-primary{
+    position: fixed;
+left: 50%;
+top: 40%;
+}
+
+@media (min-height: 2px) and (orientation: landscape){
+    .summary {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        overflow-y: auto;
+        background-color: #fff; 
+    }
+    .summary .title {
+        text-align: center;
+        margin-top: 10px;
+        position: relative; 
+    }
+    .summary #tillbaks {
+        transform: translateX(-50%);
+        z-index: 999;
+        color: lightcoral;
+        bottom: 91%;
+        left: 5%;
+    }
+    .summary .tackar {
+        font-size: 60px;
+        font-weight: normal;
+        font-family: 'Arial', sans-serif;
+        margin-bottom: 20px;
+        position: relative; 
+    }
+    .summary #orderText {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+        margin: 10px auto;
+        max-width: 900px;
+        position: relative;
+    }
+}
+
+@media (min-height: 2px) and (orientation: portrait){
+    .summary {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        overflow-y: auto;
+        background-color: #fff; 
+    }
+    .summary .title {
+        text-align: center;
+        margin-top: 10px;
+        position: relative; 
+    }
+    .summary #tillbaks {
+        transform: translateX(-50%);
+        z-index: 999;
+        color: lightcoral;
+        bottom: 91%;
+        left: 5%;
+    }
+    .summary .tackar {
+        font-size: 60px;
+        font-weight: normal;
+        font-family: 'Arial', sans-serif;
+        margin-bottom: 20px;
+        position: relative; 
+    }
+    .summary #orderText {
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+        margin: 10px auto;
+        max-width: 900px;
+        position: relative;
+    }
+}
+
+.product-info li {
+    font-family: Arial, sans-serif;
+    font-size: 14px; 
+    margin-bottom: 10px;
+  }
+  
+  .product-info{
+    overflow-y: auto;
+}
+  .product-info li span.tittel {
+    font-size: larger;
+    font-weight: bold;
+  }
+  

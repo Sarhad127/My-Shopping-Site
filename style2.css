@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(75, 75, 75));
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+body{
+  background-color: blanchedalmond;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(75, 75, 75));
+}
+.navbar-nav .nav-link .fa-shopping-cart {
+  margin-right: 5px; 
+}
+.navbar-nav .nav-link .badge {
+  position: absolute; 
+  top: 90px; 
+  right: 120px; 
+  font-size: 14px; 
+}
+.remove-button {
+  background-color: lightgreen;
+  margin-top: 2px;
+  border: none; 
+  padding: 5px 10px; 
+  cursor: pointer; 
+  margin-left: 10px; 
+  outline: 1px solid black;
+}
+  
